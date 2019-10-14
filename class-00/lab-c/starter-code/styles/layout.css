@@ -7,13 +7,9 @@ nav {
   margin-top: 25px;
 }
 
-footer section p{
-  padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
-  color: #aaa;
+input {
+  font-family: 'Patrick Hand', cursive;
 }
-
 
 aside {
   padding-top: 30px;
@@ -56,5 +52,27 @@ aside {
   margin-bottom: 33px;
 }
 
+nav ul {
+  float: right;
+}
 
+#logo h1 {
+  padding-left: 50px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.4em;
+}
+
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+}
 
