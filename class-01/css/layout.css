@@ -1,0 +1,37 @@
+div{
+  width:100%;
+  border: black 1px solid;
+  text-align: center;
+}
+div:first-child{
+  height:75px;
+  line-height:75px;
+  background-color: blueviolet;
+}
+
+div:nth-child(2){
+  height:150px;
+  line-height:150px;
+  background-color: aquamarine;
+}
+
+div:nth-child(3), div:nth-child(4){
+  height:125px;
+  line-height:125px;
+  background-color: burlywood;
+}
+
+div:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8) {
+  height:250px;
+  line-height:250px;
+  width:50%;
+  float:left;
+  background-color: darkcyan;
+}
+
+footer{
+  border: black 1px solid;
+  height:80px;
+  line-height: 80px;
+  background-color: darkred;
+}
