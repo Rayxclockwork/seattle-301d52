@@ -1,4 +1,4 @@
-div{
+div, footer{
   width:100%;
   border: black 1px solid;
   text-align: center;
@@ -30,8 +30,55 @@ div:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8) {
 }
 
 footer{
-  border: black 1px solid;
   height:80px;
+  clear:both;
   line-height: 80px;
   background-color: darkred;
+}
+
+
+@media (min-width: 768px){
+  div, footer{
+    max-width:960px;
+    margin:auto;
+    border: black 1px solid;
+    text-align: center;
+  }
+  div:first-child{
+    height:100px;
+    line-height:100px;
+    background-color: blue;
+  }
+  
+  div:nth-child(2){
+    height:600px;
+    line-height:600px;
+    width:200px;
+    float:left;
+    background-color: red;
+  }
+  
+  div:nth-child(3), div:nth-child(4){
+    height:200px;
+    line-height:200px;
+    width:380px;
+    float:left;
+    background-color: blanchedalmond;
+  }
+  
+  div:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8) {
+    height:250px;
+    line-height:250px;
+    width:190px;
+    float:left;
+    background-color: darksalmon;
+  }
+  
+  footer{
+   height:150px;
+   width:760px;
+   clear:none;
+   line-height: 150px;
+   background-color: darkcyan;
+  }
 }
